@@ -17,6 +17,7 @@
 
   /* @layout/border-radius/rounded */
   --radius: 1rem;
+  --radius-button: 1rem 0 1rem 0;
 
   /* @layout/content-width/medium */
   --width-content-width: clamp(40rem, 72.5vw, 100rem);
