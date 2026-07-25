@@ -16,7 +16,7 @@ export default function ScienceSection(): React.JSX.Element {
           metrics={[
             {
               value: "3000 ",
-              description: "Operational uptime rate",
+              description: "Chambers placed worldwide",
             },
             {
               value: "120+",
