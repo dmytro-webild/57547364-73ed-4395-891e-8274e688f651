@@ -11,8 +11,8 @@ export default function HeroSection(): React.JSX.Element {
         <SectionErrorBoundary name="hero">
               <HeroTiltedCards
         tag="Defining the New Standard"
-        title="Lifetech hyperbaric chambers"
-        description="We offer modular, safe, and low-maintenance technology, validated by medics and athletes, for those seeking supreme performance and longevity."
+        title="Hyperbaric wellness technology"
+        description="We offer modular, safe, and low-maintenance hyperbaric technology for those seeking supreme performance, recovery, and longevity."
         primaryButton={{
             text: "Book a Meeting",
             href: "#contact",
@@ -21,7 +21,7 @@ export default function HeroSection(): React.JSX.Element {
             text: "Learn More",
             href: "#about",
           }}
-        items={[{"imageSrc":"https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2053&auto=format&fit=crop"},{"imageSrc":"https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=2070&auto=format&fit=crop"},{"imageSrc":"https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop"},{"imageSrc":"https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2020&auto=format&fit=crop"},{"imageSrc":"https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=2070&auto=format&fit=crop"}]}
+        items={[{"imageSrc":"https://storage.googleapis.com/webild/users/user_3GdLzVph1aPQWDuyELHp7aLXPvp/uploaded-1784997541498-w4h3yi5a.jpg"},{"imageSrc":"https://storage.googleapis.com/webild/users/user_3GdLzVph1aPQWDuyELHp7aLXPvp/uploaded-1784997541497-a58bhqcb.jpg"},{"imageSrc":"https://storage.googleapis.com/webild/users/user_3GdLzVph1aPQWDuyELHp7aLXPvp/uploaded-1784997541498-hwgxlste.jpg"},{"imageSrc":"https://storage.googleapis.com/webild/users/user_3GdLzVph1aPQWDuyELHp7aLXPvp/uploaded-1784997541500-9uhv5eia.jpg"},{"imageSrc":"https://storage.googleapis.com/webild/users/user_3GdLzVph1aPQWDuyELHp7aLXPvp/uploaded-1784997541498-w4h3yi5a.jpg"}]}
         textAnimation="slide-up"
       />
         </SectionErrorBoundary>
