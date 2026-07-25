@@ -17,12 +17,12 @@ export default function ProductsSection(): React.JSX.Element {
             {
               title: "Precision Hardware",
               description: "High-grade atmospheric controls.",
-              imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-nurses-work_23-2149341556.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3GdLzVph1aPQWDuyELHp7aLXPvp/uploaded-1784999570483-cmt9t8lz.jpg",
             },
             {
               title: "Comfort Interior",
               description: "Spacious and intuitive cabin.",
-              imageSrc: "http://img.b2bpic.net/free-photo/cat-scan-machine-hospital-with-no-people_637285-4945.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3GdLzVph1aPQWDuyELHp7aLXPvp/uploaded-1784997541498-hwgxlste.jpg",
             },
             {
               title: "Real-time Metrics",
@@ -32,7 +32,7 @@ export default function ProductsSection(): React.JSX.Element {
             {
               title: "Wellness Aesthetic",
               description: "Fits clinical and spa environments.",
-              imageSrc: "http://img.b2bpic.net/free-photo/electromagnetic-therapy-back-physiotherapist-doctor-uses-medical-equipment-highly-effective-pain-treatment-inflammation-back-magnetic-field-rehabilitation-magnetotherapy_169016-41688.jpg",
+              imageSrc: "https://images.pexels.com/photos/36450259/pexels-photo-36450259.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=36450259",
             },
             {
               title: "Structural Integrity",
