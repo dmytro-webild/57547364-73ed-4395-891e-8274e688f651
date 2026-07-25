@@ -34,7 +34,9 @@ export default function Layout() {
   {
     "name": "Team",
     "href": "#team"
-  }
+  },
+  { name: "Products", href: "/products" },
+
 ];
 
   return (
