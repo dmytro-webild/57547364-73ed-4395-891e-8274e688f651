@@ -7,7 +7,7 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 
 const metrics = [
   {
-    value: "3000 ",
+    value: "3,000 Plus",
     description: "Chambers placed worldwide"
   },
   {
