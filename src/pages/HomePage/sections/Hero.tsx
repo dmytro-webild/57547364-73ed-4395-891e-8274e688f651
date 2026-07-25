@@ -8,7 +8,7 @@ export default function HeroSection(): React.JSX.Element {
     <div data-webild-section="hero" data-section="hero" id="hero">
       <HeroOverlay
         textAnimation="slide-up"
-        title="Hyperbaric wellness technology"
+        title="Hyperbaric Oxygen technology"
         imageSrc="https://storage.googleapis.com/webild/users/user_3GdLzVph1aPQWDuyELHp7aLXPvp/uploaded-1784997541496-62ask78l.jpg"
         tag="Defining the New Standard"
         primaryButton={{"href":"#contact","text":"Book a Meeting"}}
