@@ -15,7 +15,7 @@ export default function ScienceSection(): React.JSX.Element {
           description="Our technology is backed by data and trusted by global leaders in medicine and sports performance."
           metrics={[
             {
-              value: "99.9%",
+              value: "3000 ",
               description: "Operational uptime rate",
             },
             {
