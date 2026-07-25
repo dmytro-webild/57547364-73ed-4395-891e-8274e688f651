@@ -17,7 +17,7 @@ export default function ProductsSection(): React.JSX.Element {
             {
               title: "Precision Hardware",
               description: "High-grade atmospheric controls.",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3GdLzVph1aPQWDuyELHp7aLXPvp/uploaded-1784999570483-cmt9t8lz.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3GdLzVph1aPQWDuyELHp7aLXPvp/uploaded-1784999768396-4ky5j702.png",
             },
             {
               title: "Comfort Interior",
