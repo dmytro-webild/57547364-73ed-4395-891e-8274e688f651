@@ -40,7 +40,7 @@ export default function Layout() {
 ];
 
   return (
-    <StyleProvider buttonVariant="expand" siteBackground="floatingGradient" heroBackground="gradientBars">
+    <StyleProvider buttonVariant="default" siteBackground="floatingGradient" heroBackground="gradientBars">
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
         <NavbarFullscreenStatic
