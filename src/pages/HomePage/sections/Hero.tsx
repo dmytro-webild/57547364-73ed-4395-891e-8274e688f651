@@ -32,16 +32,12 @@ const HeroInline = () => {
       aria-label="Hero section"
       className="relative w-full h-svh overflow-hidden flex flex-col justify-end mb-20"
     >
-      <HeroBackgroundSlot />
       <ImageOrVideo
-        imageSrc={"https://storage.googleapis.com/webild/users/user_3GdLzVph1aPQWDuyELHp7aLXPvp/uploaded-1784997541496-62ask78l.jpg"}
+        imageSrc={"https://storage.googleapis.com/webild/users/user_3GdLzVph1aPQWDuyELHp7aLXPvp/uploaded-1784999056482-jwcqcdur.jpg"}
         className="absolute inset-0 w-full h-full object-cover rounded-none"
       />
 
-      <div
-        className="absolute z-10 w-[150vw] h-[150vw] left-0 bottom-0 -translate-x-1/2 translate-y-1/2 backdrop-blur mask-[radial-gradient(circle,black_20%,transparent_70%)]"
-        aria-hidden="true"
-      />
+      <div className="absolute inset-0 bg-accent/20" aria-hidden="true" />
 
       <div className="relative z-10 w-content-width mx-auto pb-10 md:pb-25">
         <div className="flex flex-col gap-3 w-full md:w-6/10 lg:w-1/2 xl:w-45/100 2xl:w-4/10">
