@@ -5,6 +5,7 @@ import Button from "@/components/ui/Button";
 
 interface NavbarFullscreenStaticProps {
   logo: string;
+  logoImageSrc?: string;
   navItems: { name: string; href: string }[];
   ctaButton: { text: string; href: string };
 }
@@ -18,7 +19,7 @@ const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string, on
   onClose();
 };
 
-const NavbarFullscreenStatic = ({ logo, navItems, ctaButton }: NavbarFullscreenStaticProps) => {
+const NavbarFullscreenStatic = ({ logo, logoImageSrc, navItems, ctaButton }: NavbarFullscreenStaticProps) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
@@ -45,9 +46,13 @@ const NavbarFullscreenStatic = ({ logo, navItems, ctaButton }: NavbarFullscreenS
       <div className="absolute z-10 top-5 left-1/2 -translate-x-1/2 flex items-center justify-between w-content-width pointer-events-auto">
         <a
           href="/"
-          className="text-xl font-medium text-background"
+          className="text-xl font-medium text-background flex items-center"
         >
-          {logo}
+          {logoImageSrc ? (
+            <img src={logoImageSrc} alt={logo} className="h-8 object-contain" style={{ filter: "brightness(0) saturate(100%) invert(67%) sepia(11%) saturate(1455%) hue-rotate(344deg) brightness(91%) contrast(86%)" }} />
+          ) : (
+            logo
+          )}
         </a>
 
         <div className="flex items-center gap-2 xl:gap-3 2xl:gap-4">

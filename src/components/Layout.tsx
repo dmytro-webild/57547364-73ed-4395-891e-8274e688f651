@@ -45,6 +45,7 @@ export default function Layout() {
       <SectionErrorBoundary name="navbar">
         <NavbarFullscreenStatic
       logo="Oxyhelp"
+      logoImageSrc="https://storage.googleapis.com/webild/users/user_3GdLzVph1aPQWDuyELHp7aLXPvp/uploaded-1785413081584-gutrqly7.png"
       ctaButton={{
         text: "Book Meeting",
         href: "#contact",
