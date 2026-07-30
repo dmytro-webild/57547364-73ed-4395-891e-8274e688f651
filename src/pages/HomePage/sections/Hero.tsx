@@ -33,7 +33,7 @@ const HeroInline = () => {
       className="relative w-full h-svh overflow-hidden flex flex-col justify-end mb-20"
     >
       <ImageOrVideo
-        imageSrc={"https://storage.googleapis.com/webild/users/user_3GdLzVph1aPQWDuyELHp7aLXPvp/uploaded-1784999056482-jwcqcdur.jpg"}
+        imageSrc={"https://storage.googleapis.com/webild/users/user_3GdLzVph1aPQWDuyELHp7aLXPvp/uploaded-1785412398650-psi36dig.png"}
         className="absolute inset-0 w-full h-full object-cover rounded-none"
       />
 
